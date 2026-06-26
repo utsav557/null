@@ -1,3 +1,5 @@
+# The Story Beiggin
+
 """"
 item = input("what item you like to buy ")
 price = float(input("what is the price "))
