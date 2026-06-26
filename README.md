@@ -7,7 +7,7 @@ total = price * quantity
 print(total) """
 
 
-#GAME
+# GAME
 
 """
 djective1 = input("enter your edective1: ")
@@ -19,7 +19,7 @@ print(f"I shaw a biig {noun} in caffee")
 print(f"a {noun} is very very {adjective2} therre") """
 
 
-#arithmetic
+# Arithmetic
 
 """
 friends = 2
@@ -64,7 +64,7 @@ c = math.sqrt(pow(a,2) + pow(b,2))
 
 print(c)"""
 
-#If statment
+# If statment
 """
 age = int(input("Enter your age"))
 if age >= 100:
