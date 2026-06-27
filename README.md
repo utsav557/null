@@ -105,4 +105,18 @@ elif sign == "/":
 else:
        print(f"{sign} is not valid") """
 
+# Weight Convert
+"""
+weight = float(input("ENter your weight: "))
+Unit = input("Kilogram or Pound (K or P): ")
 
+if Unit == "K":
+    weight = weight * 2.205
+    weight = "Lbs."
+
+elif Unit == "P":
+    weight = weight / 2.205
+    print(weight)
+
+else:
+    print(f"{Unit} was not valid") """
