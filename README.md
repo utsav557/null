@@ -1,4 +1,4 @@
-# The Story Beiggin
+[# The Story Beiggin
 
 """"
 item = input("what item you like to buy ")
