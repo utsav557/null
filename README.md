@@ -1,4 +1,4 @@
-[# The Story Beiggin
+# The Story Beiggin
 
 """"
 item = input("what item you like to buy ")
@@ -120,3 +120,41 @@ elif Unit == "P":
 
 else:
     print(f"{Unit} was not valid") """
+
+# Temperature convert 
+"""
+
+unit = input("the temprechure is celius or fahrenhiet (C/F): ")
+temp = float(input("enter the emprecher: "))
+
+if unit == "C":
+    temp = round((9 * temp) / 5 + 32)
+    print(f"this tempreature in farhrenhiet is {temp} ")
+elif unit == "F":
+    temp = round((32 - temp) * 5/9 )
+    print(f"this temreature in celcius is {temp}")
+else:
+    print(f"this {unit} is invalid") """
+
+# Logical Oprators
+"""
+temp = 23
+
+is_raining = False
+
+if temp > 35 or temp < 0 or is_raining:
+    print("not safe to go outside")
+else:
+    print("ALL CLEAR") """
+"""
+temp = -2
+if_sunny = False
+
+if temp >= 28 and if_sunny:
+    print("its make you 🏴")
+
+elif temp <= -1 and not if_sunny:
+    print("its too cold or 🌥☁🌥")
+
+else:
+    print("all clear") """
