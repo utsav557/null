@@ -159,3 +159,31 @@ elif temp <= -1 and not if_sunny:
 else:
     print("all clear") """
 
+# Strng method
+"""
+name = input("Enter your name: ")
+phone_number = input("enter your phone number")
+
+result = len(name)
+result = name.find("a")
+result = name.rfind("a")
+result = name.capitalize()
+result = name.upper()
+result = name.isdigit()
+result = name.isalph()
+result = phone_number.count("7")
+result = phone_number.replace("8" ,"2" )
+
+print(result) """
+
+# Some execrsize
+"""
+uname = input("Enter a name: ")
+if len(uname) > 12:
+    print("uname is to big")
+elif uname.find(""):
+    print("not allowed")
+elif not uname.isalpha():
+    print("its in alapha not allowed")
+else:
+    print("wellcome") """
