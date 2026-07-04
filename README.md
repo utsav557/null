@@ -177,13 +177,32 @@ result = phone_number.replace("8" ,"2" )
 print(result) """
 
 # Some execrsize
+
 """
 uname = input("Enter a name: ")
 if len(uname) > 12:
     print("uname is to big")
+
 elif uname.find(""):
     print("not allowed")
-elif not uname.isalpha():
+
+elif uname.isalpha():
     print("its in alapha not allowed")
+
 else:
-    print("wellcome") """
+    print("wellcome")  """
+
+# Indexing
+
+"""
+credit_card = "1234-5678-9012"
+
+print(credit_card[4])
+print(credit_card[0:5])
+print(credit_card[:9])
+print(credit_card[5:])
+print(credit_card[-2])
+print(credit_card[::3])
+
+last_digit = credit_card[-4:]
+print(last_digit) """
